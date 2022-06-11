@@ -15,7 +15,7 @@ function validateName(){
         nameError.innerHTML = 'Name cannot contain numbers';
         return false;
     }
-    nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    nameError.innerHTML = '<i class="fa fa-check" aria-hidden="true" style="color:green;"></i>';
     return true;
 }
 function validateMobile(){
@@ -32,7 +32,7 @@ function validateMobile(){
         mobileError.innerHTML = 'Mobile no required'
         return false;
     }
-    mobileError.innerHTML = '<i class="fa-solid fa-circle-check"></i>'
+    mobileError.innerHTML = '<i class="fa fa-check" aria-hidden="true" style="color:green;"></i>'
     return true;
 }
 function validateEmail(){
@@ -45,7 +45,7 @@ function validateEmail(){
         emailError.innerHTML = 'Email Invalid'
         return false;
     }
-    emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    emailError.innerHTML = '<i class="fa fa-check" aria-hidden="true" style="color:green;"></i>';
     return true;
 }
 
@@ -57,7 +57,7 @@ function validateMessage(){
         messageError.innerHTML =left + 'more character required'
         return false;
     }
-    messageError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    messageError.innerHTML = '<i class="fa fa-check" aria-hidden="true" style="color:green;"></i>';
     return true;
 }
 
