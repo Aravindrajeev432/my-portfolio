@@ -52,25 +52,7 @@ body {
     text-transform: capitalize;
 }
 
-.headline h2::before {
-    background-color: #3f3f3f75;
-    content: "";
-    height: 3px;
-    left: 40.5%;
-    position: absolute;
-    top: 55px;
-    width: 220px;
-}
 
-.headline h2::after {
-    background-color: #3f3f3f;
-    content: "";
-    height: 8px;
-    left: 45.5%;
-    position: absolute;
-    top: 53px;
-    width: 100px;
-}
 
 .headline p {
     font-size: 20px;
